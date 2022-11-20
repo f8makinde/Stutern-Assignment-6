@@ -1,17 +1,19 @@
 body{
     margin: 0 2em;
     font-family: 'Poppins', sans-serif;
+    background: rgb(246, 223, 252);
+    color: rgb(80, 5, 101);
 }
 .head-flex{
-    display: flex;
-   
-    justify-content: space-between;
-   
+    display: flex;  
+    justify-content: space-between;   
+    font-weight: 700;
 }
 
 li{
     list-style: none;
     margin: 0 1em;
+    
 }
 .main-flex{
     display: flex;
@@ -24,7 +26,7 @@ li{
     margin: 0 0 0 2em;
 }
 .my-image{
-    width: 100%;
+    max-width: 100%;
     order: 1;
     border-radius: 6px;
     margin-top: 1em;
@@ -33,7 +35,6 @@ li{
 .section-flex{
     display: flex;
     margin-top: 4em;
-
 }
 .skill-flex{
     display: flex;
@@ -51,4 +52,48 @@ li{
     text-align: center;
     list-style: none;
     margin: 0 .5em;
+    font-weight: 700;
 }
+.skill:hover{
+    background: rgb(80, 5, 101);
+    color: rgb(246, 223, 252);
+}
+ #my-works{
+    background: rgb(80, 5, 101);
+    color: rgb(246, 223, 252);
+    padding: .5em 2em;
+    border-radius: 2px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid rgb(80, 5, 101);
+    
+}
+ #my-works:hover{
+    background: inherit;
+    color: rgb(80, 5, 101);
+    text-decoration: none;
+}
+.nav{
+    text-decoration: none;
+}
+.nav:active{
+    color: rgb(80, 5, 101);
+}
+@media only screen and (max-width: 710px) {
+    .my-works{   
+        padding: .5em 2.5em;
+    }
+    .section-flex{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4em;
+    }
+    .my-image{
+      min-width: 200px;
+    }
+    .about{
+        order: 2;
+        margin: 0 0 0 2em;
+        text-justify: inter-word;
+    }
+  }
