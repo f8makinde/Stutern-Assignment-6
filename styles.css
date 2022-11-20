@@ -11,3 +11,22 @@ li{
     list-style: none;
     margin: 0 1em;
 }
+.main-flex{
+    display: flex;
+   margin-top: 5em;
+   
+  
+}
+.about{
+    order: 2;
+    margin: 0 0 0 2em;
+}
+.my-image{
+    width: 100%;
+    order: 1;
+    border-radius: 6px;
+    margin-top: 1em;
+}
+.image-div{
+   
+}
