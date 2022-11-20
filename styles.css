@@ -1,0 +1,13 @@
+body{
+    margin: 0 2em;
+}
+.head-flex{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+li{
+    list-style: none;
+    margin: 0 1em;
+}
